@@ -18,7 +18,15 @@ const Hero = () => {
         <img src={profilePic} alt="Sameeran" className="profile-img" />
         <h1>Hey, I'm <span className="highlight">Sameeran</span></h1>
         <p>Software Developer | Machine Learning Engineer | Data Scientist</p>
-        <button className="btn" onClick={downloadResume}>Download Resume</button>
+        <a 
+  href="https://drive.google.com/file/d/1XfZ90UiXZbMq1PeOyOLsphS9OnIDsQOR/view?usp=drive_link" 
+  className="btn" 
+  target="_blank" 
+  rel="noopener noreferrer"
+>
+  Download Resume
+</a>
+
         <a href="#projects" className="btn">My Work</a>
       </div>
     </section>
