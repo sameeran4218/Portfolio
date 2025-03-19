@@ -16,7 +16,7 @@ const Hero = () => {
   target="_blank" 
   rel="noopener noreferrer"
 >
-  Download Resume
+  My Resume
 </a>
 
         <a href="#projects" className="btn">My Work</a>
