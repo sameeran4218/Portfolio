@@ -10,18 +10,31 @@ import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
 const projects = [
   {
+    name:'CVision',
+    image: project7,
+    description:'CVision transforms the traditional resume screening process using artificial intelligence. By leveraging LangChain, Groq APIs, and Pinecone vector search, it creates intelligent connections between resumes and job requirements, helping both job seekers and recruiters make better decisions.',
+    techStack: ["LangChain", "Groq APIs", "Pinecone",'MongoDB','Flask','Cloudinary'],
+    sourceCode: 'https://github.com/sameeran4218/CVision'
+  },
+  {
+    name:'Code Crafter',
+    image:project8,
+    description:'Code Crafter is an intelligent system that combines two AI agents to analyze and solve Data Structures and Algorithms (DSA) problems. Agent 1 (HuggingFace) performs problem analysis, while Agent 2 (OpenAI) generates optimized solutions. The system is designed to enhance problem-solving efficiency and accuracy in coding challenges.',
+    techStack: ['langChain',"HuggingFace", "OpenAI", "Python", "Flask"],
+  },
+    {
+    name: "Student Management System",
+    image: project2,
+    description: "A modular desktop application featuring secure authentication, comprehensive CRUD operations for courses/students/results tracking, and a beautiful Tkinter-based GUI - built with Python and SQLite for efficient data management.",
+    techStack: ["Python", "MySQL","Tkinter",'OOPs'],
+    sourceCode: "https://github.com/sameeran4218/Student-Management-System"
+  },
+  {
     name: "Customer Support GPT-2",
     image: project1,
     description: "This repository contains a fine-tuned GPT-2 model deployed in a Flask framework meant to automate customer support interactions. The model is capable of generating context-aware responses to common customer queries, enhancing customer engagement and reducing the workload on human support agents.",
     techStack: ["GPT-2", "HuggingFace", "Flask"],
     sourceCode: "https://github.com/sameeran4218/Customer-Support--Finetuning-GPT2"
-  },
-  {
-    name: "Student Management System",
-    image: project2,
-    description: "A Python-based app with a Tkinter GUI and MySQL integration for managing student records. Features include secure login, CRUD operations, and CSV export.",
-    techStack: ["Python", "MySQL","Tkinter"],
-    sourceCode: "https://github.com/sameeran4218/Student-Management-System"
   },
   {
     name: "Semi Supervised Weed Detection",
