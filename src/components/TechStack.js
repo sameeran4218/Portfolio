@@ -1,6 +1,6 @@
 import React from "react";
 import { FaPython, FaGitAlt, FaDatabase, FaSearch } from "react-icons/fa";
-import { SiCplusplus, SiFlask, SiTensorflow, SiNumpy, SiPandas, SiSelenium, SiMongodb, SiChainlink } from "react-icons/si";
+import { SiCplusplus, SiFlask, SiTensorflow, SiNumpy, SiPandas, SiSelenium } from "react-icons/si";
 
 const TechStack = () => {
   return (
@@ -26,21 +26,20 @@ const TechStack = () => {
         </div>
 
         <div className="skill-category">
-          <h3>📊 Data Processing & Databases</h3>
+          <h3>📊 Data Processing</h3>
           <div className="skills">
             <span className="skill"><SiNumpy /> NumPy</span>
             <span className="skill"><SiPandas /> Pandas</span>
             <span className="skill">Matplotlib</span>
             <span className="skill"><FaDatabase /> SQL</span>
-            <span className="skill"><SiMongodb /> MongoDB</span>
           </div>
         </div>
 
         <div className="skill-category">
-          <h3>🧠 AI & Tools</h3>
+          <h3>🛠️ Tools & Frameworks</h3>
           <div className="skills">
             <span className="skill"><SiTensorflow /> TensorFlow</span>
-            <span className="skill"><SiChainlink /> LangChain</span>
+            <span className="skill">Keras</span>
             <span className="skill">Scikit-learn</span>
             <span className="skill"><FaGitAlt /> Git</span>
             <span className="skill"><SiSelenium /> Selenium</span>
